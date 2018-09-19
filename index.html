@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/game.js"></script>
+    
+    
+</head>
+<body>
+
+       
+
+    <div id="nameofgame">
+    
+        <h1>Crystal Collector</h1>
+
+    </div>
+
+    <br>
+
+    <div id="instructions">
+            <p>You will be given a random number at the start of the game.</p>
+            <br>
+            <p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <br>
+            <p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
+            <br>
+            <p> Each time the game starts, the game will change the values of each crystal.</p>
+    </div>
+
+    <br>
+    <div id="wrapper">
+        <div id="number-to-guess"></div>
+          <div id="standings">
+            <p>Wins:
+              <span id="numberWins"></span>
+            <br>
+            <br>
+              Losses:
+              <span id="numberLosses"></span>
+            </p>
+          </div>
+    </div>
+
+    <br><br><br>
+
+    <div id="crystals"> 
+
+    <img class="crystal-images" id="purple" src="assets/images/crystal-clipart-1.png" alt="crystal1">   
+    <img class="crystal-images" id="white" src="assets/images/crystal-clipart-2.png" alt="crystal2">   
+    <img class="crystal-images" id="blue" src="assets/images/crystal-clipart-3.jpg" alt="crystal3">   
+    <img class="crystal-images" id="mix" src="assets/images/crystal-clipart-4.png" alt="crystal4">   
+
+    </div>
+
+    <br>
+
+    <div id="textyourscore">Your Total Score Is:</div>
+    
+
+    <div id="actualscore">
+   
+    </div>
+
+  
+
+</body>
+</html>
 
